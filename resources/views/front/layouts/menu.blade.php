@@ -4,7 +4,7 @@
               <ul id="jetmenu" class="jetmenu blue">
                 <li class="active"><a href="{{ asset('front') }}/index.html">Home</a>
                 </li>
-                <li><a href="{{ asset('front') }}/#">Pages</a>
+                {{--  <li><a href="{{ asset('front') }}/#">Pages</a>
                   <ul class="dropdown">
                     <li><a href="{{ asset('front') }}/about.html">About Us</a></li>
                     <li><a href="{{ asset('front') }}/services.html">Services</a></li>
@@ -45,7 +45,7 @@
                     <li><a href="{{ asset('front') }}/blog-right-sidebar.html">Blog Right Sidebar</a></li>
                     <li><a href="{{ asset('front') }}/single-with-sidebar.html">Single with Sidebar</a></li>
                   </ul>
-                </li>
+                </li>  --}}
               </ul>
             </div>
           </div>

@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <title>MaxiBiz Bootstrap Business Template</title>
+  <title>ICDBD - Institute of Creative Design Bangladesh</title>
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
   <meta content="" name="keywords">
   <meta content="" name="description">
@@ -41,11 +41,11 @@
     <div class="container">
       <div class="col-lg-12 text-right">
         <div class="social_buttons">
-          <a href="{{ asset('front') }}/#" data-toggle="tooltip" data-placement="bottom" title="Facebook"><i class="fa fa-facebook"></i></a>
-          <a href="{{ asset('front') }}/#" data-toggle="tooltip" data-placement="bottom" title="Twitter"><i class="fa fa-twitter"></i></a>
-          <a href="{{ asset('front') }}/#" data-toggle="tooltip" data-placement="bottom" title="Google+"><i class="fa fa-google-plus"></i></a>
-          <a href="{{ asset('front') }}/#" data-toggle="tooltip" data-placement="bottom" title="Dribbble"><i class="fa fa-dribbble"></i></a>
-          <a href="{{ asset('front') }}/#" data-toggle="tooltip" data-placement="bottom" title="RSS"><i class="fa fa-rss"></i></a>
+          <a href="javascript:void(0);" data-toggle="tooltip" data-placement="bottom" title="Facebook"><i class="fa fa-facebook"></i></a>
+          <a href="javascript:void(0);" data-toggle="tooltip" data-placement="bottom" title="Twitter"><i class="fa fa-twitter"></i></a>
+          <a href="javascript:void(0);" data-toggle="tooltip" data-placement="bottom" title="Google+"><i class="fa fa-google-plus"></i></a>
+          <a href="javascript:void(0);" data-toggle="tooltip" data-placement="bottom" title="Dribbble"><i class="fa fa-dribbble"></i></a>
+          <a href="javascript:void(0);" data-toggle="tooltip" data-placement="bottom" title="RSS"><i class="fa fa-rss"></i></a>
         </div>
       </div>
     </div>
@@ -59,7 +59,7 @@
         <div class="col-lg-3 col-md-3 col-sm-12 title-area">
           <div class="site-title" id="title">
             <a href="{{ asset('front') }}/index.html" title="">
-              <h4>MAXI<span>BIZ</span></h4>
+              <h4>I<span>CDBD</span></h4>
             </a>
           </div>
         </div>
@@ -77,71 +77,163 @@
     <div class="container">
       <div class="ror">
         <div class="col-md-8 col-md-offset-2">
-          <h1>A Bootstrap Template designed for all your business needs.</h1>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</p>
+          <h1>We Offer</h1>
         </div>
       </div>
     </div>
   </section>
 
 
-  <section class="section1">
-    <div class="container">
-      <div class="col-lg-4 col-md-4 col-sm-4">
-        <div class="servicebox text-center">
-          <div class="service-icon">
-            <div class="dm-icon-effect-1" data-effect="slide-left">
-              <a href="{{ asset('front') }}/#" class=""> <i class="active dm-icon fa fa-bars fa-3x"></i> </a>
-            </div>
-            <div class="servicetitle">
-              <h4>Responsive Layout</h4>
-              <hr>
-            </div>
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry"s standard dummy text ever since..</p>
-          </div>
-          <!-- service-icon -->
-        </div>
-        <!-- servicebox -->
-      </div>
-      <!-- large-4 -->
+ <section class="section1">
+    <div class="container clearfix">
+      <div class=" col-lg-12 col-md-12 col-sm-12 clearfix">
 
-      <div class="col-lg-4 col-md-4 col-sm-4">
-        <div class="servicebox text-center">
-          <div class="service-icon">
-            <div class="dm-icon-effect-1" data-effect="slide-bottom">
-              <a href="{{ asset('front') }}/#" class=""> <i class="active dm-icon fa fa-laptop fa-3x"></i> </a>
-            </div>
-            <div class="servicetitle">
-              <h4>Creative Design</h4>
-              <hr>
-            </div>
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry"s standard dummy text ever since..</p>
-          </div>
-          <!-- service-icon -->
-        </div>
-        <!-- servicebox -->
-      </div>
-      <!-- large-4 -->
+        <div class="divider"></div>
 
-      <div class="col-lg-4 col-md-4 col-sm-4">
-        <div class="servicebox text-center">
-          <div class="service-icon">
-            <div class="dm-icon-effect-1" data-effect="slide-right">
-              <a href="{{ asset('front') }}/#" class=""> <i class="active dm-icon fa fa-book fa-3x"></i> </a>
+        
+
+        <div class="portfolio-centered">
+          <div class="recentitems portfolio">
+
+            <div class="portfolio-item col-lg-4 col-md-4 col-sm-4 col-xs-12 mockups">
+              <div class="he-wrap tpl6 market-item">
+                <img src="{{asset('front')}}/img/erp_development.jpg" alt="">
+                <div class="he-view">
+                  <div class="bg a0" data-animate="fadeIn">
+                    <h3 class="big a1" data-animate="fadeInDown">ERP Solution</h3>
+                    <a data-rel="prettyPhoto" href="{{asset('front')}}/img/erp_development.jpg" class="dmbutton a2" data-animate="bounceInLeft"><i class="fa fa-search"></i></a>
+                    <a href="javascript:void(0);" class="dmbutton a2" data-animate="bounceInRight"><i class="fa fa-link"></i></a>
+                    <div class="portfolio_category text-center a2" data-animate="fadeIn">
+                    </div>
+                    <!-- portfolio_category -->
+                  </div>
+                  <!-- he bg -->
+                </div>
+                <!-- he view -->
+              </div>
+              <!-- he wrap -->
+              <h3 class="title">ERP Solution</h3>
+              <p>ERP software is considered to be a type of enterprise application, that is software designed to be used by larger businesses and often requires dedicated teams</p>
             </div>
-            <div class="servicetitle">
-              <h4>Easy to Setup</h4>
-              <hr>
+            <!-- end col-4 -->
+
+            <div class="portfolio-item col-lg-4 col-md-4 col-sm-4 col-xs-12 web-design graphic-design">
+              <div class="he-wrap tpl6 market-item">
+                <img src="{{asset('front')}}/img/absense.png" alt="">
+                <div class="he-view">
+                  <div class="bg a0" data-animate="fadeIn">
+                    <h3 class="big a1" data-animate="fadeInDown">Office management system</h3>
+                    <a data-rel="prettyPhoto" href="{{asset('front')}}/img/absense.png" class="dmbutton a2" data-animate="bounceInLeft"><i class="fa fa-search"></i></a>
+                    <a href="javascript:void(0);" class="dmbutton a2" data-animate="bounceInRight"><i class="fa fa-link"></i></a>
+                    <div class="portfolio_category text-center a2" data-animate="fadeIn">
+                    </div>
+                    <!-- portfolio_category -->
+                  </div>
+                  <!-- he bg -->
+                </div>
+                <!-- he view -->
+              </div>
+              <!-- he wrap -->
+              <h3 class="title">Office management system</h3>
+              <p>Office management is a profession involving the design, implementation, evaluation, and maintenance of the process of work within an office</p>
             </div>
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry"s standard dummy text ever since..</p>
+            <!-- end col-4 -->
+
+            <div class="portfolio-item col-lg-4 col-md-4 col-sm-4 col-xs-12 graphic-design">
+              <div class="he-wrap tpl6 market-item">
+                <img src="{{ asset('front') }}/img/pos.png" alt="">
+                <div class="he-view">
+                  <div class="bg a0" data-animate="fadeIn">
+                    <h3 class="big a1" data-animate="fadeInDown">Restaurant POS</h3>
+                    <a data-rel="prettyPhoto" href="{{ asset('front') }}/img/pos.png" class="dmbutton a2" data-animate="bounceInLeft"><i class="fa fa-search"></i></a>
+                    <a href="javascript:void(0);" class="dmbutton a2" data-animate="bounceInRight"><i class="fa fa-link"></i></a>
+                    <div class="portfolio_category text-center a2" data-animate="fadeIn">
+                    </div>
+                    <!-- portfolio_category -->
+                  </div>
+                  <!-- he bg -->
+                </div>
+                <!-- he view -->
+              </div>
+              <!-- he wrap -->
+              <h3 class="title">Restaurant POS</h3>
+              <p>Restaurant operators require easy, fast access to actionable information that helps them manage costs and make smart business decisions. The solution is a Internet-based back office tools….</p>
+            </div>
+            <!-- end col-4 -->
+
+            <div class="portfolio-item col-lg-4 col-md-4 col-sm-4 col-xs-12 mockups">
+              <div class="he-wrap tpl6 market-item">
+                <img src="{{asset('front')}}/img/hr.png" alt="">
+                <div class="he-view">
+                  <div class="bg a0" data-animate="fadeIn">
+                    <h3 class="big a1" data-animate="fadeInDown">HR Management System</h3>
+                    <a data-rel="prettyPhoto" href="{{asset('front')}}/img/hr.png" class="dmbutton a2" data-animate="bounceInLeft"><i class="fa fa-search"></i></a>
+                    <a href="javascript:void(0);" class="dmbutton a2" data-animate="bounceInRight"><i class="fa fa-link"></i></a>
+                    <div class="portfolio_category text-center a2" data-animate="fadeIn">
+                    </div>
+                    <!-- portfolio_category -->
+                  </div>
+                  <!-- he bg -->
+                </div>
+                <!-- he view -->
+              </div>
+              <!-- he wrap -->
+              <h3 class="title">HR Management System</h3>
+              <p>Restaurant operators require easy, fast access to actionable information that helps them manage costs and make smart business decisions. The solution is a Internet-based back office tools….</p>
+            </div>
+            <!-- end col-12 -->
+
+            <div class="portfolio-item col-lg-4 col-md-4 col-sm-4 col-xs-12 web-design">
+              <div class="he-wrap tpl6 market-item">
+                <img src="{{asset('front')}}/img/micro.png" alt="">
+                <div class="he-view">
+                  <div class="bg a0" data-animate="fadeIn">
+                    <h3 class="big a1" data-animate="fadeInDown">Micro-finance ERP</h3>
+                    <a data-rel="prettyPhoto" href="{{asset('front')}}/img/micro.png" class="dmbutton a2" data-animate="bounceInLeft"><i class="fa fa-search"></i></a>
+                    <a href="javascript:void(0);" class="dmbutton a2" data-animate="bounceInRight"><i class="fa fa-link"></i></a>
+                    <div class="portfolio_category text-center a2" data-animate="fadeIn">
+                    </div>
+                    <!-- portfolio_category -->
+                  </div>
+                  <!-- he bg -->
+                </div>
+                <!-- he view -->
+              </div>
+              <!-- he wrap -->
+              <h3 class="title">Micro-finance ERP</h3>
+              <p>The United IT Microfinance ERP is a Micro-Finance Management Software specially developed for the Microfinance Institutes, NGO’s and Cooperative Societies to automate their work-flow. This software features integrated …</p>
+            </div>
+            <!-- end col-12 -->
+
+            <div class="portfolio-item col-lg-4 col-md-4 col-sm-4 col-xs-12 web-design">
+              <div class="he-wrap tpl6 market-item">
+                <img src="{{asset('front')}}/img/count.png" alt="">
+                <div class="he-view">
+                  <div class="bg a0" data-animate="fadeIn">
+                    <h3 class="big a1" data-animate="fadeInDown">E-accounting</h3>
+                    <a data-rel="prettyPhoto" href="{{asset('front')}}/img/count.png" class="dmbutton a2" data-animate="bounceInLeft"><i class="fa fa-search"></i></a>
+                    <a href="javascript:void(0);" class="dmbutton a2" data-animate="bounceInRight"><i class="fa fa-link"></i></a>
+                    <div class="portfolio_category text-center a2" data-animate="fadeIn">
+                    </div>
+                    <!-- portfolio_category -->
+                  </div>
+                  <!-- he bg -->
+                </div>
+                <!-- he view -->
+              </div>
+              <!-- he wrap -->
+              <h3 class="title">E-accounting</h3>
+              <p>E-accounting is the application of online and Internet technologies to the business accounting function. Similar to e-mail being an electronic version of traditional mail, e-accounting is “electronic enablement” of…</p>
+            </div>
+            <!-- end col-12 -->
+
           </div>
-          <!-- service-icon -->
+          <!-- portfolio -->
         </div>
-        <!-- servicebox -->
+        <!-- portfolio container -->
+        <div class="divider"></div>
       </div>
-      <!-- large-4 -->
-    </div>
-    <!-- end container -->
+      <!-- end container -->
   </section>
   <!-- end section -->
 
@@ -161,7 +253,7 @@
             <div class="services_lists_boxes clearfix">
               <div class="col-lg-3 col-md-3 col-sm-12">
                 <div class="services_lists_boxes_icon" data-effect="slide-bottom">
-                  <a href="{{ asset('front') }}/#" class=""> <i class="active dm-icon-medium fa fa-key fa-2x"></i> </a>
+                  <a href="javascript:void(0);" class=""> <i class="active dm-icon-medium fa fa-key fa-2x"></i> </a>
                 </div>
               </div>
               <div class="col-lg-9 col-md-9 col-sm-9">
@@ -169,7 +261,7 @@
                   <h4>Create an Account</h4>
                   <hr>
                 </div>
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry"s standard dummy text ever since..</p>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry </p>
               </div>
             </div>
             <!-- services_lists_boxes -->
@@ -177,7 +269,7 @@
             <div class="services_lists_boxes clearfix">
               <div class="col-lg-3 col-md-3 col-sm-12">
                 <div class="services_lists_boxes_icon" data-effect="slide-bottom">
-                  <a href="{{ asset('front') }}/#" class=""> <i class="active dm-icon-medium fa fa-download fa-2x"></i> </a>
+                  <a href="javascript:void(0);" class=""> <i class="active dm-icon-medium fa fa-download fa-2x"></i> </a>
                 </div>
               </div>
               <div class="col-lg-9 col-md-9 col-sm-9">
@@ -185,7 +277,7 @@
                   <h4>Upload Your Works</h4>
                   <hr>
                 </div>
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry"s standard..</p>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard..</p>
               </div>
             </div>
             <!-- services_lists_boxes -->
@@ -194,7 +286,7 @@
             <div class="services_lists_boxes clearfix">
               <div class="col-lg-3 col-md-3 col-sm-12">
                 <div class="services_lists_boxes_icon_none" data-effect="slide-bottom">
-                  <a href="{{ asset('front') }}/#" class=""> <i class="active dm-icon-medium fa fa-dollar fa-2x"></i> </a>
+                  <a href="javascript:void(0);" class=""> <i class="active dm-icon-medium fa fa-dollar fa-2x"></i> </a>
                 </div>
               </div>
               <div class="col-lg-9 col-md-9 col-sm-9">
@@ -202,7 +294,7 @@
                   <h4>Earn Money</h4>
                   <hr>
                 </div>
-                <p>Lorem Ipsum is simply dummy text of the industry. Lorem Ipsum has been the industry"s standard dummy text ever since..</p>
+                <p>Lorem Ipsum is simply dummy text of the industry. Lorem Ipsum has been the industry standard dummy text ever since..</p>
               </div>
             </div>
             <!-- services_lists_boxes -->
@@ -316,7 +408,7 @@
       <div class="message text-center">
         <h2 class="big-title">Your <span>portfolio</span> should standout!</h2>
         <p class="small-title">Lorem Ipsum is simply dummy text of the printing and typesetting industy has been the industry"s standard.</p>
-        <a class="button large" href="{{ asset('front') }}/#">ABOUT OUR SERVICES</a> <a class=" dmbutton large" href="{{ asset('front') }}/#">CONTACT US TODAY</a>
+        <a class="button large" href="javascript:void(0);">ABOUT OUR SERVICES</a> <a class=" dmbutton large" href="javascript:void(0);">CONTACT US TODAY</a>
       </div>
       <!-- end message -->
     </div>
@@ -350,7 +442,7 @@
               <li>WordPress Installation</li>
               <li>24/7 Support</li>
             </ul>
-            <a class="btn btn-primary" href="{{ asset('front') }}/#">Order Now</a>
+            <a class="btn btn-primary" href="javascript:void(0);">Order Now</a>
           </div>
           <!-- end custombox -->
         </div>
@@ -375,7 +467,7 @@
               <li>WordPress Installation</li>
               <li>24/7 Support</li>
             </ul>
-            <a class="btn btn-primary" href="{{ asset('front') }}/#">Order Now</a>
+            <a class="btn btn-primary" href="javascript:void(0);">Order Now</a>
           </div>
           <!-- end custombox -->
         </div>
@@ -400,7 +492,7 @@
               <li>WordPress Installation</li>
               <li>24/7 Support</li>
             </ul>
-            <a class="btn btn-primary" href="{{ asset('front') }}/#">Order Now</a>
+            <a class="btn btn-primary" href="javascript:void(0);">Order Now</a>
           </div>
           <!-- end custombox -->
         </div>
@@ -420,7 +512,7 @@
           <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry"s standard dummy text ever since the 1500s..</p>
         </div>
         <div class="col-lg-3 col-md-3 col-sm-12">
-          <a class="dmbutton button large pull-right" href="{{ asset('front') }}/#"><i class="fa fa-download"></i> GET A QUOTE</a>
+          <a class="dmbutton button large pull-right" href="javascript:void(0);"><i class="fa fa-download"></i> GET A QUOTE</a>
         </div>
       </div>
       <!-- end message -->
